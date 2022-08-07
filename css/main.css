@@ -1,0 +1,51 @@
+body{
+    --primary: #0979c9;
+}
+
+/* Bootstrap Reset */
+.text-primary{
+    color: var(--primary) !important;
+}
+.btn-primary{
+    background: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+/* Bootstrap Resets */
+
+
+p,.date{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.pr-5px{
+    padding-right: 5px;
+}
+
+.section-title{
+    width: fit-content;
+    background-color: var(--primary);
+    color: #fff;
+    padding: 5px 8px 5px 8px;
+    border-radius: 0 5px 0 0;
+    font-size: 16px;
+}
+.section-hr{
+    margin-top: -9px;
+    width: 100%;
+    height: 2px;
+    background: var(--primary);
+    margin-bottom: 15px;
+}
+
+.dp{
+    max-height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border: 1px solid var(--primary);
+    border-radius: 8px 0 8px 0;
+}
+.dp img{
+    width: 100%;
+    height: 100%;
+}
